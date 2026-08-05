@@ -1,4 +1,4 @@
-### Supported Ubuntu Version 18.04, 20.04, 22.04
+### Supported Ubuntu Version 20.04, 22.04
 ARG UBUNTU_VERSION
 # NOSONAR: Running as root is acceptable for this build container as it's used for compilation only
 FROM ubuntu:${UBUNTU_VERSION}
